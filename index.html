@@ -8,19 +8,22 @@
     <script type="text/javascript" src="assets/js/script.js"></script>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="/assets/css/search.css" rel="stylesheet">
 
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h2 class="text-muted">Search</h2>
+            <h2 class="text-muted">Find Your Next Favorite Movie</h2>
         </div>
-        <div class="jumbotron">
-            <input type="text" name="search" placeholder="Search...">
-
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Search</button>
-            </input>
+        <div align="center" class="jumbotron">
+          <form class="example">
+  <input type="text" placeholder="Search for a Movie..." name="search" size=40>
+  <button type="submit" onclick="query();"><i class="fa fa-search"></i></button>
+          </form>
         </div>
     </div>
 </body>
