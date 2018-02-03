@@ -1,4 +1,3 @@
-function query(){
 $(document).ready(function () {
 
     var params = new Object();
@@ -15,4 +14,4 @@ $(document).ready(function () {
         console.log(result);
     });
 });
-}
+
